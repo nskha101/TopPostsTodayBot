@@ -3,15 +3,11 @@ import praw
 import pandas as pd
 
 def pullredall():
-    reddit = praw.Reddit(client_id='X9IB4gITcE_UDg', \
-                        client_secret='35ZjTEHOGXGf2wYXx8OBwkekz24', \
-                        user_agent='nithsapi', \
-                        username='number2inqueue', \
-                        password='Theboynextdoor25!')
+    #reddit = -- use praw here to sign in. 
 
     subreddit = reddit.subreddit('all')
 
-    top_subreddit = subreddit.top("day", limit=100)
+    top_subreddit = subreddit.top("day", limit=200)
 
     
 
