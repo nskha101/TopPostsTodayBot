@@ -15,7 +15,7 @@ acquire a reddit API key for a script application
 and also
 ```
 a google api Key, located in a json file in the root directory, please refer to the youtube API page for details. 
-'''
+```
 
 ### Installing
 
