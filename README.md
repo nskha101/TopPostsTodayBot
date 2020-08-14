@@ -27,7 +27,7 @@ The program will make a folder with today's date as its name, where it will stor
 
 Afterwards, it will output the trimmed and edited video as "mymovie.mp4", and upload it to youtube using the parameters in the main.py file. 
 
-##Dependencies
+## Dependencies
 
 This program has a bunch of dependencies to get it working, alot of which are from the API usage, so be sure to check those carefully in the respective documentation!
 
