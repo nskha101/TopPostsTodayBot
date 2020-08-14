@@ -14,7 +14,7 @@ upopts = {'file' : os.getcwd() + os.path.sep + 'mymovie.mp4',
         'description' : "Please enjoy today's top trending posts!",
         'keywords' : "top, posts, today, daily",
         'category' : "22",
-        'privacyStatus' : "public"
+        'privacyStatus' : "private"
         }
 input("please review video, then press enter to continue...")
 uptube.upload(upopts)
